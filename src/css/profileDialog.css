@@ -1,0 +1,19 @@
+
+.profile__dialog{
+    display: flex;
+   
+}
+.profile__dialog__left {
+    flex:1;
+   background-color: aqua;
+}
+.profile__dialog__right{
+    flex:0.3;
+    background-color: blue;
+    overflow: scroll;
+}
+.profile__dialog__image {
+   
+    object-fit: cover;
+    
+}

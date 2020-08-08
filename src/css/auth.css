@@ -1,0 +1,128 @@
+.auth {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.auth__box {
+  width: 100%;
+  max-width: 350px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  padding-top: 30px;
+}
+
+.auth__header {
+  text-align: center;
+  object-fit: contain;
+}
+.auth__header button {
+  margin-top: 10px;
+}
+.auth__buttons button {
+  text-transform: none;
+  min-width: 240px;
+  padding: 2px;
+  background-color: #0095f6;
+  color: #ffffff;
+}
+.auth__header__logo {
+  width: 150px;
+  object-fit: contain;
+}
+.auth__header__text {
+  color: #8e8e8e;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 40px 10px;
+  text-align: center;
+}
+
+.auth__OR {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.auth__OR h3 {
+  width: 100%;
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8e8e8e;
+  border-bottom: 1px solid #8e8e8e;
+  line-height: 0.1em;
+}
+.auth__OR h3 span {
+  background-color: #fff;
+  padding: 0 15px;
+  font-weight: normal;
+  font-size: 12px;
+}
+.auth__form {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.auth__form input {
+  padding-bottom: 10px;
+}
+.auth__signup {
+  margin-top: 20px;
+}
+.auth__textField {
+  margin-bottom: 10px;
+}
+.auth__textField input {
+  width: 100%;
+  min-width: 215px;
+  background-color: #fafafa;
+}
+.auth__textField p {
+  text-overflow: ellipsis;
+  color: #0095f6;
+}
+.MuiFormHelperText-root.Mui-error {
+  width: 215px;
+}
+
+.auth__gotoLogin {
+  margin-top: 10px;
+  min-width: 350px;
+  border: 1px solid lightgray;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.auth__gotoLogin p {
+  padding: 20px;
+}
+
+.auth__gotoLogin p a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: 600;
+}
+.auth__policyText {
+  font-size: 10px;
+  color: #8e8e8e;
+  line-height: 13px;
+  text-align: center;
+  margin: 10px 50px 10px;
+}
+
+/* For Media Query */
+@media screen and (max-width: 650px) {
+  .auth {
+    background-color: #ffffff;
+  }
+  .auth__box {
+    border: none;
+    padding-top: 0px;
+  }
+  .auth__gotoLogin {
+    border: none;
+  }
+}

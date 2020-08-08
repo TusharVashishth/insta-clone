@@ -1,0 +1,22 @@
+.imageUpload__input {
+    margin-bottom: 15px;
+}
+.imageUplaod__title {
+    text-align: center;
+    padding: 15px;
+
+}
+.imageUpload__progressDiv {
+    display: flex;
+    align-items: center;
+    
+}
+.imageUpload__progressbar{
+    flex: 1;
+    
+}
+.imageUpload__progressPercentage {
+    flex: 0;
+    margin-left: 5px;
+
+}
